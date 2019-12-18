@@ -54,6 +54,298 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+#menu-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  text-decoration: none; }
+  #menu-main li {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: white; }
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  text-decoration: none; }
+
+header {
+  text-decoration: none; }
+
+.search {
+  margin-left: 50px; }
+
+.contactinfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start; }
+  .contactinfo p {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px; }
+  .contactinfo q {
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px; }
+
+.hours {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start; }
+  .hours p {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px; }
+  .hours q {
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px; }
+
+.footer1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+
+.footer-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 250px; }
+
+.copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  font-size: 12px; }
+
+footer {
+  background-image: url("images/dark-wood.png");
+  color: white;
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  padding-right: 25px;
+  padding-left: 25px; }
+
+.title {
+  margin-top: 15px;
+  color: orange;
+  font-size: 25px; }
+
+.icons {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
 body {
-  background: red;
+  background: #ffffff;
   font-size: 2em; }
+
+.home-background {
+  margin-top: -150px;
+  position: relative;
+  z-index: -1; }
+
+.home-logo {
+  position: absolute;
+  position: absolute;
+  left: 50%;
+  margin-left: -150px;
+  top: 50%;
+  margin-top: -75px; }
+
+.header-logo {
+  width: 75px;
+  margin: 20px;
+  margin-right: 850px;
+  color: white; }
+
+.shop img {
+  width: 100px; }
+
+.body h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 50px; }
+
+.shop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .shop a {
+    color: white;
+    text-decoration: none; }
+  .shop p {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 16px;
+    color: grey;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px; }
+  .shop button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border: 10px solid transparent;
+    background-color: #248A83;
+    font-size: 15px; }
+
+.shop-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  width: 250px;
+  height: 250px;
+  border: 2px solid #b87333; }
+
+.journal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none; }
+  .journal div {
+    margin-left: 15px;
+    margin-right: 15px; }
+
+.journal-date {
+  font-size: 12.5px;
+  margin-top: 5px;
+  margin-left: 7px; }
+
+.journal-title {
+  font-size: 20px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  color: #248A83;
+  margin-left: 7px; }
+
+.journal-img img {
+  width: 300px;
+  height: 200px; }
+
+.journal-info {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  width: 298px;
+  height: 100px;
+  border: 1px solid grey;
+  margin-top: -6px; }
+
+#read-entry {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1px solid black;
+  margin-left: 15px;
+  margin-top: 20px;
+  text-decoration: none;
+  font-size: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px; }
+
+a {
+  text-decoration: none;
+  color: grey; }
+
+.adventures {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 100px; }
+
+.posts {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1.5rem;
+  margin-bottom: 1.5rem; }

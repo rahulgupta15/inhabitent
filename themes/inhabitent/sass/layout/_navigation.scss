@@ -1,0 +1,29 @@
+#menu-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-decoration: none;
+
+
+    li {
+        margin-left: 10px;
+        margin-right: 10px;
+        text-decoration: none;
+        color: white;
+    }
+}
+.nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        text-decoration: none;
+}
+
+header {
+    text-decoration: none;
+}
+
+.search {
+    margin-left: 50px;
+}
+
